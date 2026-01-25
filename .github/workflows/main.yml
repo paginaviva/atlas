@@ -1,0 +1,48 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['7.4', '8.0', '8.1', '8.2', '8.3', '8.4', '8.5']
+
+    name: PHP ${{ matrix.php }} tests
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: xdebug
+
+      - name: Install dependencies
+        run: composer install
+
+      - name: Prepare codeclimate test reporter
+        if: ${{ matrix.php == '8.0' }}
+        run: |
+          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+          chmod +x ./cc-test-reporter
+          ./cc-test-reporter before-build
+
+      - name: Execute tests
+        run: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover=build/logs/clover.xml --testdox
+
+      - name: Upload the reports to coveralls.io
+        if: ${{ matrix.php == '8.0' }}
+        run: |
+          composer global require php-coveralls/php-coveralls
+          php-coveralls -v
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload the reports to codeclimate
+        if: ${{ matrix.php == '8.0' }}
+        run: sudo ./cc-test-reporter after-build -r $CC_TEST_REPORTER_ID
+        env:
+          CC_TEST_REPORTER_ID: 2d364fb3d1b91ff1946425afbdc5bb1eb7dad8e02454cbd92cbb1a8fb661a439
