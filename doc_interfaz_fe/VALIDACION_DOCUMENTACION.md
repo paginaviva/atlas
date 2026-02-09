@@ -167,19 +167,24 @@ theme/
 - [x] Corregir "191" → "63" en todos los documentos ✅
 - [x] Corregir "23 plugins" → "22 plugins" ✅
 
-### Actualizados
+### Completadas ✅ (PR0)
+- [x] Corregir "191" → "63" en todos los documentos ✅
+- [x] Corregir "23 plugins" → "22 plugins" ✅
 - [x] **00_indice_maestro_mono_bootstrap.md** (líneas 37, 275)
 - [x] **01_analisis_mono_bootstrap_estructura.md** (líneas 82, 115, 220, 293)
 - [x] **02_analisis_mono_bootstrap_dependencias.md** (línea 136, resumen estadísticas)
 - [x] **03_-12_ documentos temáticos** (sin referencias numéricas encontradas)
+
+### Importantes (PR1) - Pendientes
 - [ ] Validar componentes UI documentados contra archivos HTML reales
 - [ ] Verificar nombres de clases CSS exactos
-- [ ] Revisar ejemplos de código
+- [ ] Revisar ejemplos de código en documentos de componentes
 
-### Secundarias (PR2)
-- [ ] Revisar estilos y colores exactos
-- [ ] Validar tipografía
-- [ ] Confirmar iconos documentados
+### Secundarias (PR2) - Validaciones Opcionales
+- [ ] Revisar estilos y colores exactos contra theme/
+- [ ] Validar tipografía (fuentes, tamaños específicos)
+- [ ] Confirmar iconos documentados en Material Design Icons
+- [ ] Verificar estilos responsive en breakpoints documentados
 
 ---
 
