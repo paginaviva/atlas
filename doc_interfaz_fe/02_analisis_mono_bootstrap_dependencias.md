@@ -9,7 +9,7 @@
 
 ## 🎯 Resumen Ejecutivo
 
-Mono Bootstrap utiliza **23 librerías/plugins** organizadas en `theme/plugins/`. La mayoría de las dependencias son **opcionales** (usadas en ejemplos específicos).
+Mono Bootstrap utiliza **22 librerías/plugins** organizadas en `theme/plugins/`. La mayoría de las dependencias son **opcionales** (usadas en ejemplos específicos).
 
 **Dependencia Core Única**: Bootstrap 5 (incluido en plugins)
 

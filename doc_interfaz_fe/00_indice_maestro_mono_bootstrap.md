@@ -237,8 +237,8 @@ Para comprender Mono Bootstrap en profundidad, lee en este orden:
 | **Documentos** | 12 |
 | **Temas Cubiertos** | 12 de 12 (100%) |
 | **Componentes Documentados** | 40+ |
-| **Librerías Analizadas** | 23 |
-| **Archivos HTML en MB** | 191 |
+| **Librerías Analizadas** | 22 |
+| **Archivos HTML en MB** | 63 |
 | **Páginas de Referencia** | ~15,000 palabras |
 | **Checklists Completados** | 12 de 12 |
 

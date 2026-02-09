@@ -11,7 +11,7 @@
 
 Mono Bootstrap es un template admin moderno basado en Bootstrap 5. Utiliza **Gulp** como build tool y **SCSS** para estilos. Tiene dos carpetas principales:
 - **`source/`**: Archivos fuente (SCSS, plantillas, imágenes originales)
-- **`theme/`**: Archivos compilados/finales listos para usar (191 archivos HTML)
+- **`theme/`**: Archivos compilados/finales listos para usar (63 archivos HTML)
 
 **Tipo de proyecto**: Static HTML Site Generator con build pipeline
 
@@ -35,7 +35,7 @@ mono-bootstrap/
 │   ├── js/                   ← JavaScript compilado
 │   ├── plugins/              ← Plugins compilados
 │   ├── data/                 ← Datos (JSON, etc.)
-│   └── [191 archivos .html]  ← HTML generado
+│   └── [63 archivos .html]   ← HTML generado
 │
 ├── .git/                      ← Repositorio Git
 ├── gulpfile.js                ← Configuración Gulp (build)
