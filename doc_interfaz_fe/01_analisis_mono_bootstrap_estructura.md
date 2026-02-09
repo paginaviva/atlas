@@ -79,7 +79,7 @@ mono-bootstrap/
 - Se copian tal cual a `theme/`
 
 #### **Archivos `.html` en `/source/`**
-- Plantillas HTML individuales (approx. 191)
+- Plantillas HTML individuales (approx. 63)
 - Organizadas por sección: pages, components, layouts
 - Incluyen includes mediante `file-include` (gulp-file-include)
 
@@ -112,7 +112,7 @@ mono-bootstrap/
 - Datos JSON para ejemplos
 - Configuraciones de sample data para componentes
 
-#### **`theme/[archivos .html]`** (191 archivos)
+#### **`theme/[archivos .html]`** (63 archivos)
 - Páginas HTML compiladas desde plantillas source
 - Cada página es un archivo separado
 - Todas funcionan de forma standalone
@@ -217,7 +217,7 @@ npm run deploy   # Deploy (configuración externa)
 
 | Tipo | Cantidad |Ubicación|
 |------|----------|---------|
-| Archivos HTML | 191 | `theme/` |
+| Archivos HTML | 63 | `theme/` |
 | Archivos SCSS | ~30+ | `source/scss/` |
 | Archivos JS | ~5-10 | `source/js/` + `source/plugins/` |
 | Imágenes | ~40+ | `theme/images/` |
@@ -290,7 +290,7 @@ El proyecto usa **gulp-file-include** para reutilizar componentes:
 3. **Modular**: Archivos organizados por función
 4. **Escalable**: Sistema de includes permite reutilización
 5. **Bien Documentado**: Nombres descriptivos, estructura intuitiva
-6. **191 páginas HTML**: Exhaustivo conjunto de ejemplos y componentes
+6. **63 páginas HTML**: Exhaustivo conjunto de ejemplos y componentes
 
 ---
 

@@ -34,7 +34,7 @@ Este conjunto de documentos proporciona una referencia técnica exhaustiva de **
 📄 [02_analisis_mono_bootstrap_dependencias.md](02_analisis_mono_bootstrap_dependencias.md)
 
 **Contenidos**:
-- 23 librerías/plugins documentados
+- 22 librerías/plugins documentados
 - Clasificación: críticas vs opcionales
 - Ubicación de cada dependencia
 - Versiones exactas
@@ -272,7 +272,7 @@ Para comprender Mono Bootstrap en profundidad, lee en este orden:
 **Mono Bootstrap es**:
 - ✅ Template admin profesional y moderno
 - ✅ Basado en Bootstrap 5 (estable y documentado)
-- ✅ Exhaustivo: 191 páginas HTML de ejemplos
+- ✅ Exhaustivo: 63 páginas HTML de ejemplos
 - ✅ Escalable: Modular, con 40+ componentes
 - ✅ Bien estructurado: source/ → build → theme/
 - ✅ Listo para integrar en Atlas Panel

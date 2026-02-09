@@ -133,7 +133,7 @@ Mono Bootstrap utiliza **22 librerías/plugins** organizadas en `theme/plugins/`
 
 | Categoría | Cantidad |
 |-----------|----------|
-| **Plugins Locales Totales** | 23 |
+| **Plugins Locales Totales** | 22 |
 | **Librerías Desde CDN** | 3 (Google Fonts, Quill, otros menores) |
 | **Librerías Críticas** | 4 |
 | **Librerías Opcionales** | 19 |
